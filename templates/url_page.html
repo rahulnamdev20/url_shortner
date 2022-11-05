@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}shorten URL{% endblock %}
+
+{% block content %}
+<form action="#", method="post">
+    <label for="url">Original url:</label>
+
+    <input type="url" name="nm" id="url"
+       placeholder="Enter your url here"
+       pattern="https://.*" size="50"
+       required>
+    <br>
+    <input type="submit" value="Convert" class="btn btn-primary">
+</form>
+{% endblock %}
