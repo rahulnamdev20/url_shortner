@@ -30,7 +30,7 @@ open another window and start ngrok server using
 ngrok http 5000
 
 ```
-Remember to change the ngrok url in the shorturl.html file inside the "<h1>" tag.
+Remember to change the ngrok url in the shorturl.html file inside the "h1" tag.
 This is important as we do not have a proper subdomain at this moment.
 
 Now hit the http://127.0.0.1:5000 in browser to access the application.
